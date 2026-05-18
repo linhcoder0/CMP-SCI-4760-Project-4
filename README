@@ -1,0 +1,16 @@
+Name: Andy Linh
+Date: 5/17/2026
+Environment: Linux
+How to compile the project:
+Type ’make’
+Example of how to run the project:
+./oss -n 6 -s 2 -t 1 -i 0 -f log.txt
+
+Generative AI used : ChatGPT
+Prompts:
+    Help me understand examples from the module surrounding Project 3
+
+Summary: 
+    The prompts generated worked well. There were some various formatting issues that I had to fix with various \n but it worked out well.
+
+https://github.com/linhcoder0/CMP-SCI-4760-Project-4

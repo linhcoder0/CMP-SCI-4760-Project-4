@@ -1,0 +1,934 @@
+OSS: starting, PID:7915 PPID:5357
+OSS called with:
+-n 3
+-s 2
+-t 1.500
+-i 0.200
+-f log.txt
+OSS: initialized shared memory clock and message queue id 0
+OSS: Generating process P1 with PID 7916 and putting it in ready queue at time 0:0. Total CPU burst: 0:721273847
+OSS: Ready queue [ P1 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 0:4638
+OSS: total time this dispatch was 207 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P1 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 0:25005445
+OSS: total time this dispatch was 807 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 9194794 nanoseconds
+OSS: Process P1 PID 7916 did not use its entire time quantum
+OSS: Putting process P1 PID 7916 into blocked queue until 0:134200239
+OSS: No ready processes at time 0:34200239. Advancing clock by 100000000 nanoseconds
+OSS: Unblocking process P1 PID 7916 at time 0:134201890, overhead 1651 ns
+OSS: Ready queue [ P1 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 0:134202017
+OSS: total time this dispatch was 127 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P1 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 0:159202735
+OSS: total time this dispatch was 718 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P1 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 0:184203045
+OSS: total time this dispatch was 310 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+OSS: Generating process P2 with PID 7917 and putting it in ready queue at time 0:209203045. Total CPU burst: 0:710103680
+OSS: Ready queue [ P1 P2 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 0:209209221
+OSS: total time this dispatch was 739 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 9868684 nanoseconds
+OSS: Process P1 PID 7916 did not use its entire time quantum
+OSS: Putting process P1 PID 7916 into blocked queue until 0:319077905
+OSS: Ready queue [ P2 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 0:219078344
+OSS: total time this dispatch was 439 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P2 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 0:244078995
+OSS: total time this dispatch was 651 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P2 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 0:269079718
+OSS: total time this dispatch was 723 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P2 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 0:294080376
+OSS: total time this dispatch was 658 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Unblocking process P1 PID 7916 at time 0:319083490, overhead 3114 ns
+OSS: Ready queue [ P2 P1 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 0:319084132
+OSS: total time this dispatch was 642 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P1 P2 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 0:344085072
+OSS: total time this dispatch was 940 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P2 P1 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 0:369085812
+OSS: total time this dispatch was 740 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P1 P2 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 0:394086440
+OSS: total time this dispatch was 628 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 4113963 nanoseconds
+OSS: Process P1 PID 7916 did not use its entire time quantum
+OSS: Putting process P1 PID 7916 into blocked queue until 0:498200403
+OSS: Ready queue [ P2 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 0:398200616
+OSS: total time this dispatch was 213 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P2 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 0:423201176
+OSS: total time this dispatch was 560 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P2 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 0:448201661
+OSS: total time this dispatch was 485 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P2 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 0:473202648
+OSS: total time this dispatch was 987 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 4878627 nanoseconds
+OSS: Process P2 PID 7917 did not use its entire time quantum
+OSS: Putting process P2 PID 7917 into blocked queue until 0:578081275
+OSS: No ready processes at time 0:478081275. Advancing clock by 20119128 nanoseconds
+OSS: Unblocking process P1 PID 7916 at time 0:498202478, overhead 2075 ns
+OSS: Ready queue [ P1 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 0:498203306
+OSS: total time this dispatch was 828 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+
+OSS PID:7915 SysClockS: 0 SysclockNano: 523203306
+Process Table:
+Entry Occ LocalPID RealPID StartS StartN ServiceS ServiceN Blocked EventS EventN MsgSent
+    0   1        1    7916      0      0        0 173177441       0      0 498200403       9
+    1   1        2    7917      0 209203045        0 229878627       1      0 578081275      10
+    2   0        0       0      0      0        0        0       0      0      0       0
+    3   0        0       0      0      0        0        0       0      0      0       0
+    4   0        0       0      0      0        0        0       0      0      0       0
+    5   0        0       0      0      0        0        0       0      0      0       0
+    6   0        0       0      0      0        0        0       0      0      0       0
+    7   0        0       0      0      0        0        0       0      0      0       0
+    8   0        0       0      0      0        0        0       0      0      0       0
+    9   0        0       0      0      0        0        0       0      0      0       0
+   10   0        0       0      0      0        0        0       0      0      0       0
+   11   0        0       0      0      0        0        0       0      0      0       0
+   12   0        0       0      0      0        0        0       0      0      0       0
+   13   0        0       0      0      0        0        0       0      0      0       0
+   14   0        0       0      0      0        0        0       0      0      0       0
+   15   0        0       0      0      0        0        0       0      0      0       0
+   16   0        0       0      0      0        0        0       0      0      0       0
+   17   0        0       0      0      0        0        0       0      0      0       0
+Blocked processes: [ P2 until 0:578081275 ]
+
+OSS: Ready queue [ P1 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 0:523204228
+OSS: total time this dispatch was 922 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 21585774 nanoseconds
+OSS: Process P1 PID 7916 did not use its entire time quantum
+OSS: Putting process P1 PID 7916 into blocked queue until 0:644790002
+OSS: No ready processes at time 0:544790002. Advancing clock by 33291273 nanoseconds
+OSS: Unblocking process P2 PID 7917 at time 0:578084194, overhead 2919 ns
+OSS: Ready queue [ P2 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 0:578085041
+OSS: total time this dispatch was 847 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P2 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 0:603085695
+OSS: total time this dispatch was 654 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P2 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 0:628086053
+OSS: total time this dispatch was 358 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Unblocking process P1 PID 7916 at time 0:653088297, overhead 2244 ns
+OSS: Ready queue [ P2 P1 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 0:653089295
+OSS: total time this dispatch was 998 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P1 P2 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 0:678089760
+OSS: total time this dispatch was 465 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P2 P1 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 0:703089946
+OSS: total time this dispatch was 186 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P1 P2 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 0:728090190
+OSS: total time this dispatch was 244 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P2 P1 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 0:753090682
+OSS: total time this dispatch was 492 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P1 P2 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 0:778091486
+OSS: total time this dispatch was 804 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P2 P1 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 0:803091940
+OSS: total time this dispatch was 454 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P1 P2 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 0:828092859
+OSS: total time this dispatch was 919 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P2 P1 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 0:853093206
+OSS: total time this dispatch was 347 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P1 P2 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 0:878093398
+OSS: total time this dispatch was 192 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 15468865 nanoseconds
+OSS: Process P1 PID 7916 did not use its entire time quantum
+OSS: Putting process P1 PID 7916 into blocked queue until 0:993562263
+OSS: Ready queue [ P2 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 0:893562620
+OSS: total time this dispatch was 357 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P2 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 0:918563519
+OSS: total time this dispatch was 899 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 14455708 nanoseconds
+OSS: Process P2 PID 7917 did not use its entire time quantum
+OSS: Putting process P2 PID 7917 into blocked queue until 1:33019227
+OSS: No ready processes at time 0:933019227. Advancing clock by 60543036 nanoseconds
+OSS: Unblocking process P1 PID 7916 at time 0:993566444, overhead 4181 ns
+OSS: Ready queue [ P1 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 0:993567359
+OSS: total time this dispatch was 915 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 10823372 nanoseconds
+OSS: Process P1 PID 7916 did not use its entire time quantum
+OSS: Putting process P1 PID 7916 into blocked queue until 1:104390731
+
+OSS PID:7915 SysClockS: 1 SysclockNano: 4390731
+Process Table:
+Entry Occ LocalPID RealPID StartS StartN ServiceS ServiceN Blocked EventS EventN MsgSent
+    0   1        1    7916      0      0        0 321055452       1      1 104390731      16
+    1   1        2    7917      0 209203045        0 469334335       1      1 33019227      20
+    2   0        0       0      0      0        0        0       0      0      0       0
+    3   0        0       0      0      0        0        0       0      0      0       0
+    4   0        0       0      0      0        0        0       0      0      0       0
+    5   0        0       0      0      0        0        0       0      0      0       0
+    6   0        0       0      0      0        0        0       0      0      0       0
+    7   0        0       0      0      0        0        0       0      0      0       0
+    8   0        0       0      0      0        0        0       0      0      0       0
+    9   0        0       0      0      0        0        0       0      0      0       0
+   10   0        0       0      0      0        0        0       0      0      0       0
+   11   0        0       0      0      0        0        0       0      0      0       0
+   12   0        0       0      0      0        0        0       0      0      0       0
+   13   0        0       0      0      0        0        0       0      0      0       0
+   14   0        0       0      0      0        0        0       0      0      0       0
+   15   0        0       0      0      0        0        0       0      0      0       0
+   16   0        0       0      0      0        0        0       0      0      0       0
+   17   0        0       0      0      0        0        0       0      0      0       0
+Blocked processes: [ P1 until 1:104390731 P2 until 1:33019227 ]
+
+OSS: No ready processes at time 1:4390731. Advancing clock by 28628496 nanoseconds
+OSS: Unblocking process P2 PID 7917 at time 1:33021889, overhead 2662 ns
+OSS: Ready queue [ P2 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 1:33022346
+OSS: total time this dispatch was 457 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 21967427 nanoseconds
+OSS: Process P2 PID 7917 did not use its entire time quantum
+OSS: Putting process P2 PID 7917 into blocked queue until 1:154989773
+OSS: No ready processes at time 1:54989773. Advancing clock by 49400958 nanoseconds
+OSS: Unblocking process P1 PID 7916 at time 1:104395082, overhead 4351 ns
+OSS: Ready queue [ P1 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 1:104395295
+OSS: total time this dispatch was 213 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P1 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 1:129396280
+OSS: total time this dispatch was 985 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P1 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 1:154397248
+OSS: total time this dispatch was 968 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 7474494 nanoseconds
+OSS: Process P1 PID 7916 did not use its entire time quantum
+OSS: Putting process P1 PID 7916 into blocked queue until 1:261871742
+OSS: Unblocking process P2 PID 7917 at time 1:161875293, overhead 3551 ns
+OSS: Ready queue [ P2 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 1:161875763
+OSS: total time this dispatch was 470 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P2 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 1:186876718
+OSS: total time this dispatch was 955 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P2 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 1:211877634
+OSS: total time this dispatch was 916 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 11640046 nanoseconds
+OSS: Process P2 PID 7917 did not use its entire time quantum
+OSS: Putting process P2 PID 7917 into blocked queue until 1:323517680
+OSS: No ready processes at time 1:223517680. Advancing clock by 38354062 nanoseconds
+OSS: Unblocking process P1 PID 7916 at time 1:261873620, overhead 1878 ns
+OSS: Ready queue [ P1 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 1:261874496
+OSS: total time this dispatch was 876 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P1 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 1:286874944
+OSS: total time this dispatch was 448 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 5974990 nanoseconds
+OSS: Process P1 PID 7916 did not use its entire time quantum
+OSS: Putting process P1 PID 7916 into blocked queue until 1:392849934
+OSS: No ready processes at time 1:292849934. Advancing clock by 30667746 nanoseconds
+OSS: Unblocking process P2 PID 7917 at time 1:323518878, overhead 1198 ns
+OSS: Ready queue [ P2 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 1:323519408
+OSS: total time this dispatch was 530 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 19610784 nanoseconds
+OSS: Process P2 PID 7917 did not use its entire time quantum
+OSS: Putting process P2 PID 7917 into blocked queue until 1:443130192
+OSS: No ready processes at time 1:343130192. Advancing clock by 49719742 nanoseconds
+OSS: Unblocking process P1 PID 7916 at time 1:392853626, overhead 3692 ns
+OSS: Ready queue [ P1 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 1:392854050
+OSS: total time this dispatch was 424 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P1 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 1:417854577
+OSS: total time this dispatch was 527 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P1 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 1:442854747
+OSS: total time this dispatch was 170 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+OSS: Unblocking process P2 PID 7917 at time 1:467857573, overhead 2826 ns
+OSS: Ready queue [ P1 P2 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 1:467858245
+OSS: total time this dispatch was 672 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 14564179 nanoseconds
+OSS: Process P1 PID 7916 did not use its entire time quantum
+OSS: Putting process P1 PID 7916 into blocked queue until 1:582422424
+OSS: Ready queue [ P2 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 1:482422987
+OSS: total time this dispatch was 563 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+
+OSS PID:7915 SysClockS: 1 SysclockNano: 507422987
+Process Table:
+Entry Occ LocalPID RealPID StartS StartN ServiceS ServiceN Blocked EventS EventN MsgSent
+    0   1        1    7916      0      0        0 499069115       1      1 582422424      25
+    1   1        2    7917      0 209203045        0 597552592       0      1 443130192      26
+    2   0        0       0      0      0        0        0       0      0      0       0
+    3   0        0       0      0      0        0        0       0      0      0       0
+    4   0        0       0      0      0        0        0       0      0      0       0
+    5   0        0       0      0      0        0        0       0      0      0       0
+    6   0        0       0      0      0        0        0       0      0      0       0
+    7   0        0       0      0      0        0        0       0      0      0       0
+    8   0        0       0      0      0        0        0       0      0      0       0
+    9   0        0       0      0      0        0        0       0      0      0       0
+   10   0        0       0      0      0        0        0       0      0      0       0
+   11   0        0       0      0      0        0        0       0      0      0       0
+   12   0        0       0      0      0        0        0       0      0      0       0
+   13   0        0       0      0      0        0        0       0      0      0       0
+   14   0        0       0      0      0        0        0       0      0      0       0
+   15   0        0       0      0      0        0        0       0      0      0       0
+   16   0        0       0      0      0        0        0       0      0      0       0
+   17   0        0       0      0      0        0        0       0      0      0       0
+Blocked processes: [ P1 until 1:582422424 ]
+
+OSS: Ready queue [ P2 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 1:507423301
+OSS: total time this dispatch was 314 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P2 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 1:532423426
+OSS: total time this dispatch was 125 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P2 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 1:557423907
+OSS: total time this dispatch was 481 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Unblocking process P1 PID 7916 at time 1:582426961, overhead 3054 ns
+OSS: Ready queue [ P2 P1 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 1:582427179
+OSS: total time this dispatch was 218 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 25000000 nanoseconds
+OSS: Process P2 PID 7917 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P1 P2 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 1:607427918
+OSS: total time this dispatch was 739 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P2 P1 ]
+OSS: Dispatching process P2 PID 7917 from ready queue at time 1:632428378
+OSS: total time this dispatch was 460 nanoseconds
+OSS: Receiving that process P2 PID 7917 ran for 12551088 nanoseconds
+OSS: Process P2 PID 7917 terminated after using 12551088 nanoseconds of its time quantum
+OSS: Generating process P3 with PID 7918 and putting it in ready queue at time 1:644979466. Total CPU burst: 1:389782689
+OSS: Ready queue [ P1 P3 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 1:644986834
+OSS: total time this dispatch was 835 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 P1 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 1:669987225
+OSS: total time this dispatch was 391 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 1618694 nanoseconds
+OSS: Process P3 PID 7918 did not use its entire time quantum
+OSS: Putting process P3 PID 7918 into blocked queue until 1:771605919
+OSS: Ready queue [ P1 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 1:671606426
+OSS: total time this dispatch was 507 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P1 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 1:696607375
+OSS: total time this dispatch was 949 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P1 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 1:721607751
+OSS: total time this dispatch was 376 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 19485339 nanoseconds
+OSS: Process P1 PID 7916 did not use its entire time quantum
+OSS: Putting process P1 PID 7916 into blocked queue until 1:841093090
+OSS: No ready processes at time 1:741093090. Advancing clock by 30512829 nanoseconds
+OSS: Unblocking process P3 PID 7918 at time 1:771608586, overhead 2667 ns
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 1:771609208
+OSS: total time this dispatch was 622 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 21673800 nanoseconds
+OSS: Process P3 PID 7918 did not use its entire time quantum
+OSS: Putting process P3 PID 7918 into blocked queue until 1:893283008
+OSS: No ready processes at time 1:793283008. Advancing clock by 47810082 nanoseconds
+OSS: Unblocking process P1 PID 7916 at time 1:841096963, overhead 3873 ns
+OSS: Ready queue [ P1 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 1:841097393
+OSS: total time this dispatch was 430 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P1 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 1:866097931
+OSS: total time this dispatch was 538 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P1 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 1:891098875
+OSS: total time this dispatch was 944 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+OSS: Unblocking process P3 PID 7918 at time 1:916100788, overhead 1913 ns
+OSS: Ready queue [ P1 P3 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 1:916101674
+OSS: total time this dispatch was 886 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 25000000 nanoseconds
+OSS: Process P1 PID 7916 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 P1 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 1:941102663
+OSS: total time this dispatch was 989 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 14346314 nanoseconds
+OSS: Process P3 PID 7918 did not use its entire time quantum
+OSS: Putting process P3 PID 7918 into blocked queue until 2:55448977
+OSS: Ready queue [ P1 ]
+OSS: Dispatching process P1 PID 7916 from ready queue at time 1:955449713
+OSS: total time this dispatch was 736 nanoseconds
+OSS: Receiving that process P1 PID 7916 ran for 2719393 nanoseconds
+OSS: Process P1 PID 7916 terminated after using 2719393 nanoseconds of its time quantum
+OSS: No ready processes at time 1:958169106. Advancing clock by 97279871 nanoseconds
+OSS: Unblocking process P3 PID 7918 at time 2:55452162, overhead 3185 ns
+
+OSS PID:7915 SysClockS: 2 SysclockNano: 55452162
+Process Table:
+Entry Occ LocalPID RealPID StartS StartN ServiceS ServiceN Blocked EventS EventN MsgSent
+    0   0        0       0      0      0        0        0       0      0      0       0
+    1   1        3    7918      1 644979466        0 37638808       0      2 55448977       3
+    2   0        0       0      0      0        0        0       0      0      0       0
+    3   0        0       0      0      0        0        0       0      0      0       0
+    4   0        0       0      0      0        0        0       0      0      0       0
+    5   0        0       0      0      0        0        0       0      0      0       0
+    6   0        0       0      0      0        0        0       0      0      0       0
+    7   0        0       0      0      0        0        0       0      0      0       0
+    8   0        0       0      0      0        0        0       0      0      0       0
+    9   0        0       0      0      0        0        0       0      0      0       0
+   10   0        0       0      0      0        0        0       0      0      0       0
+   11   0        0       0      0      0        0        0       0      0      0       0
+   12   0        0       0      0      0        0        0       0      0      0       0
+   13   0        0       0      0      0        0        0       0      0      0       0
+   14   0        0       0      0      0        0        0       0      0      0       0
+   15   0        0       0      0      0        0        0       0      0      0       0
+   16   0        0       0      0      0        0        0       0      0      0       0
+   17   0        0       0      0      0        0        0       0      0      0       0
+Blocked processes: [ ]
+
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:55452575
+OSS: total time this dispatch was 413 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:80452838
+OSS: total time this dispatch was 263 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:105453500
+OSS: total time this dispatch was 662 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:130454324
+OSS: total time this dispatch was 824 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:155455159
+OSS: total time this dispatch was 835 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:180455383
+OSS: total time this dispatch was 224 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:205455521
+OSS: total time this dispatch was 138 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:230456381
+OSS: total time this dispatch was 860 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:255456987
+OSS: total time this dispatch was 606 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 18584300 nanoseconds
+OSS: Process P3 PID 7918 did not use its entire time quantum
+OSS: Putting process P3 PID 7918 into blocked queue until 2:374041287
+OSS: No ready processes at time 2:274041287. Advancing clock by 100000000 nanoseconds
+OSS: Unblocking process P3 PID 7918 at time 2:374044513, overhead 3226 ns
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:374045492
+OSS: total time this dispatch was 979 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:399045836
+OSS: total time this dispatch was 344 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:424046798
+OSS: total time this dispatch was 962 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:449047711
+OSS: total time this dispatch was 913 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:474048609
+OSS: total time this dispatch was 898 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:499049405
+OSS: total time this dispatch was 796 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 14193304 nanoseconds
+OSS: Process P3 PID 7918 did not use its entire time quantum
+OSS: Putting process P3 PID 7918 into blocked queue until 2:613242709
+
+OSS PID:7915 SysClockS: 2 SysclockNano: 513242709
+Process Table:
+Entry Occ LocalPID RealPID StartS StartN ServiceS ServiceN Blocked EventS EventN MsgSent
+    0   0        0       0      0      0        0        0       0      0      0       0
+    1   1        3    7918      1 644979466        0 395416412       1      2 613242709      18
+    2   0        0       0      0      0        0        0       0      0      0       0
+    3   0        0       0      0      0        0        0       0      0      0       0
+    4   0        0       0      0      0        0        0       0      0      0       0
+    5   0        0       0      0      0        0        0       0      0      0       0
+    6   0        0       0      0      0        0        0       0      0      0       0
+    7   0        0       0      0      0        0        0       0      0      0       0
+    8   0        0       0      0      0        0        0       0      0      0       0
+    9   0        0       0      0      0        0        0       0      0      0       0
+   10   0        0       0      0      0        0        0       0      0      0       0
+   11   0        0       0      0      0        0        0       0      0      0       0
+   12   0        0       0      0      0        0        0       0      0      0       0
+   13   0        0       0      0      0        0        0       0      0      0       0
+   14   0        0       0      0      0        0        0       0      0      0       0
+   15   0        0       0      0      0        0        0       0      0      0       0
+   16   0        0       0      0      0        0        0       0      0      0       0
+   17   0        0       0      0      0        0        0       0      0      0       0
+Blocked processes: [ P3 until 2:613242709 ]
+
+OSS: No ready processes at time 2:513242709. Advancing clock by 100000000 nanoseconds
+OSS: Unblocking process P3 PID 7918 at time 2:613244614, overhead 1905 ns
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:613245019
+OSS: total time this dispatch was 405 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:638245764
+OSS: total time this dispatch was 745 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:663246344
+OSS: total time this dispatch was 580 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:688247124
+OSS: total time this dispatch was 780 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:713247490
+OSS: total time this dispatch was 366 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:738247816
+OSS: total time this dispatch was 326 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:763248025
+OSS: total time this dispatch was 209 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:788248830
+OSS: total time this dispatch was 805 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 21956453 nanoseconds
+OSS: Process P3 PID 7918 did not use its entire time quantum
+OSS: Putting process P3 PID 7918 into blocked queue until 2:910205283
+OSS: No ready processes at time 2:810205283. Advancing clock by 100000000 nanoseconds
+OSS: Unblocking process P3 PID 7918 at time 2:910207039, overhead 1756 ns
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:910207454
+OSS: total time this dispatch was 415 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 2:935208145
+OSS: total time this dispatch was 691 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 18630253 nanoseconds
+OSS: Process P3 PID 7918 did not use its entire time quantum
+OSS: Putting process P3 PID 7918 into blocked queue until 3:53838398
+OSS: No ready processes at time 2:953838398. Advancing clock by 100000000 nanoseconds
+OSS: Unblocking process P3 PID 7918 at time 3:53840104, overhead 1706 ns
+
+OSS PID:7915 SysClockS: 3 SysclockNano: 53840104
+Process Table:
+Entry Occ LocalPID RealPID StartS StartN ServiceS ServiceN Blocked EventS EventN MsgSent
+    0   0        0       0      0      0        0        0       0      0      0       0
+    1   1        3    7918      1 644979466        0 636003118       0      3 53838398      28
+    2   0        0       0      0      0        0        0       0      0      0       0
+    3   0        0       0      0      0        0        0       0      0      0       0
+    4   0        0       0      0      0        0        0       0      0      0       0
+    5   0        0       0      0      0        0        0       0      0      0       0
+    6   0        0       0      0      0        0        0       0      0      0       0
+    7   0        0       0      0      0        0        0       0      0      0       0
+    8   0        0       0      0      0        0        0       0      0      0       0
+    9   0        0       0      0      0        0        0       0      0      0       0
+   10   0        0       0      0      0        0        0       0      0      0       0
+   11   0        0       0      0      0        0        0       0      0      0       0
+   12   0        0       0      0      0        0        0       0      0      0       0
+   13   0        0       0      0      0        0        0       0      0      0       0
+   14   0        0       0      0      0        0        0       0      0      0       0
+   15   0        0       0      0      0        0        0       0      0      0       0
+   16   0        0       0      0      0        0        0       0      0      0       0
+   17   0        0       0      0      0        0        0       0      0      0       0
+Blocked processes: [ ]
+
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 3:53840254
+OSS: total time this dispatch was 150 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 3:78840536
+OSS: total time this dispatch was 282 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 3:103841108
+OSS: total time this dispatch was 572 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 3:128841421
+OSS: total time this dispatch was 313 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 3:153842266
+OSS: total time this dispatch was 845 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 3:178842662
+OSS: total time this dispatch was 396 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 11771493 nanoseconds
+OSS: Process P3 PID 7918 did not use its entire time quantum
+OSS: Putting process P3 PID 7918 into blocked queue until 3:290614155
+OSS: No ready processes at time 3:190614155. Advancing clock by 100000000 nanoseconds
+OSS: Unblocking process P3 PID 7918 at time 3:290615369, overhead 1214 ns
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 3:290616339
+OSS: total time this dispatch was 970 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 15924467 nanoseconds
+OSS: Process P3 PID 7918 did not use its entire time quantum
+OSS: Putting process P3 PID 7918 into blocked queue until 3:406540806
+OSS: No ready processes at time 3:306540806. Advancing clock by 100000000 nanoseconds
+OSS: Unblocking process P3 PID 7918 at time 3:406543296, overhead 2490 ns
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 3:406544205
+OSS: total time this dispatch was 909 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 3:431544780
+OSS: total time this dispatch was 575 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 3:456545717
+OSS: total time this dispatch was 937 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 3:481546604
+OSS: total time this dispatch was 887 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+
+OSS PID:7915 SysClockS: 3 SysclockNano: 506546604
+Process Table:
+Entry Occ LocalPID RealPID StartS StartN ServiceS ServiceN Blocked EventS EventN MsgSent
+    0   0        0       0      0      0        0        0       0      0      0       0
+    1   1        3    7918      1 644979466        0 888699078       0      3 406540806      39
+    2   0        0       0      0      0        0        0       0      0      0       0
+    3   0        0       0      0      0        0        0       0      0      0       0
+    4   0        0       0      0      0        0        0       0      0      0       0
+    5   0        0       0      0      0        0        0       0      0      0       0
+    6   0        0       0      0      0        0        0       0      0      0       0
+    7   0        0       0      0      0        0        0       0      0      0       0
+    8   0        0       0      0      0        0        0       0      0      0       0
+    9   0        0       0      0      0        0        0       0      0      0       0
+   10   0        0       0      0      0        0        0       0      0      0       0
+   11   0        0       0      0      0        0        0       0      0      0       0
+   12   0        0       0      0      0        0        0       0      0      0       0
+   13   0        0       0      0      0        0        0       0      0      0       0
+   14   0        0       0      0      0        0        0       0      0      0       0
+   15   0        0       0      0      0        0        0       0      0      0       0
+   16   0        0       0      0      0        0        0       0      0      0       0
+   17   0        0       0      0      0        0        0       0      0      0       0
+Blocked processes: [ ]
+
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 3:506547424
+OSS: total time this dispatch was 820 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 11199691 nanoseconds
+OSS: Process P3 PID 7918 did not use its entire time quantum
+OSS: Putting process P3 PID 7918 into blocked queue until 3:617747115
+OSS: No ready processes at time 3:517747115. Advancing clock by 100000000 nanoseconds
+OSS: Unblocking process P3 PID 7918 at time 3:617751660, overhead 4545 ns
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 3:617752459
+OSS: total time this dispatch was 799 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 2162154 nanoseconds
+OSS: Process P3 PID 7918 did not use its entire time quantum
+OSS: Putting process P3 PID 7918 into blocked queue until 3:719914613
+OSS: No ready processes at time 3:619914613. Advancing clock by 100000000 nanoseconds
+OSS: Unblocking process P3 PID 7918 at time 3:719918355, overhead 3742 ns
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 3:719919049
+OSS: total time this dispatch was 694 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 3:744919151
+OSS: total time this dispatch was 102 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 3:769919272
+OSS: total time this dispatch was 121 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 21565593 nanoseconds
+OSS: Process P3 PID 7918 did not use its entire time quantum
+OSS: Putting process P3 PID 7918 into blocked queue until 3:891484865
+OSS: No ready processes at time 3:791484865. Advancing clock by 100000000 nanoseconds
+OSS: Unblocking process P3 PID 7918 at time 3:891487367, overhead 2502 ns
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 3:891487950
+OSS: total time this dispatch was 583 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 3:916488752
+OSS: total time this dispatch was 802 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 3:941489457
+OSS: total time this dispatch was 705 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 3:966490266
+OSS: total time this dispatch was 809 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 3:991491178
+OSS: total time this dispatch was 912 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+
+OSS PID:7915 SysClockS: 4 SysclockNano: 16491178
+Process Table:
+Entry Occ LocalPID RealPID StartS StartN ServiceS ServiceN Blocked EventS EventN MsgSent
+    0   0        0       0      0      0        0        0       0      0      0       0
+    1   1        3    7918      1 644979466        1 98626516       0      3 891484865      49
+    2   0        0       0      0      0        0        0       0      0      0       0
+    3   0        0       0      0      0        0        0       0      0      0       0
+    4   0        0       0      0      0        0        0       0      0      0       0
+    5   0        0       0      0      0        0        0       0      0      0       0
+    6   0        0       0      0      0        0        0       0      0      0       0
+    7   0        0       0      0      0        0        0       0      0      0       0
+    8   0        0       0      0      0        0        0       0      0      0       0
+    9   0        0       0      0      0        0        0       0      0      0       0
+   10   0        0       0      0      0        0        0       0      0      0       0
+   11   0        0       0      0      0        0        0       0      0      0       0
+   12   0        0       0      0      0        0        0       0      0      0       0
+   13   0        0       0      0      0        0        0       0      0      0       0
+   14   0        0       0      0      0        0        0       0      0      0       0
+   15   0        0       0      0      0        0        0       0      0      0       0
+   16   0        0       0      0      0        0        0       0      0      0       0
+   17   0        0       0      0      0        0        0       0      0      0       0
+Blocked processes: [ ]
+
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 4:16491687
+OSS: total time this dispatch was 509 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 4:41492667
+OSS: total time this dispatch was 980 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 4:66492993
+OSS: total time this dispatch was 326 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 4:91493192
+OSS: total time this dispatch was 199 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 12753573 nanoseconds
+OSS: Process P3 PID 7918 did not use its entire time quantum
+OSS: Putting process P3 PID 7918 into blocked queue until 4:204246765
+OSS: No ready processes at time 4:104246765. Advancing clock by 100000000 nanoseconds
+OSS: Unblocking process P3 PID 7918 at time 4:204248378, overhead 1613 ns
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 4:204248755
+OSS: total time this dispatch was 377 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 14039230 nanoseconds
+OSS: Process P3 PID 7918 did not use its entire time quantum
+OSS: Putting process P3 PID 7918 into blocked queue until 4:318287985
+OSS: No ready processes at time 4:218287985. Advancing clock by 100000000 nanoseconds
+OSS: Unblocking process P3 PID 7918 at time 4:318290238, overhead 2253 ns
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 4:318290948
+OSS: total time this dispatch was 710 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 4:343291539
+OSS: total time this dispatch was 591 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 4:368291765
+OSS: total time this dispatch was 226 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 4:393291871
+OSS: total time this dispatch was 106 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 4:418292510
+OSS: total time this dispatch was 639 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 4:443292705
+OSS: total time this dispatch was 195 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 4:468293147
+OSS: total time this dispatch was 442 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 25000000 nanoseconds
+OSS: Process P3 PID 7918 used its full quantum. Putting it back into ready queue
+OSS: Ready queue [ P3 ]
+OSS: Dispatching process P3 PID 7918 from ready queue at time 4:493293695
+OSS: total time this dispatch was 548 nanoseconds
+OSS: Receiving that process P3 PID 7918 ran for 14363370 nanoseconds
+OSS: Process P3 PID 7918 terminated after using 14363370 nanoseconds of its time quantum
+
+OSS: Final Report
+OSS: Launched workers: 3
+OSS: Finished workers: 3
+OSS: Total messages sent: 128
+OSS: Final simulated time: 4:507657065
+OSS: Total CPU time used by workers: 2821160216 ns
+OSS: Total OSS overhead time: 169626 ns
+OSS: Total idle time: 1686327223 ns
+OSS: CPU utilization: 62.59%
